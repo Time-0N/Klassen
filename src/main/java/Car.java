@@ -10,7 +10,7 @@ public class Car {
         this.modell = modell;
         this.farbe = farbe;
         this.baujahr = baujahr;
-        this.kmh = 0;
+        this.kmh = kmh;
 
         startCar();
 
