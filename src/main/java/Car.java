@@ -10,17 +10,25 @@ public class Car {
         this.modell = modell;
         this.farbe = farbe;
         this.baujahr = baujahr;
-        this.kmh = kmh;
+        this.kmh = 0;
 
         startCar();
 
         kmh = speedUpCar();
     }
     public int speedUpCar() {
-        kmh += 10;
+        int velocity = 0;
+        while (velocity<100) {
+            System.out.println("Speed of " + modell + " is: " + velocity);
+            kmh += 10;
+        }
         return kmh;
     }
     public void startCar() {
         System.out.println("StartedCar");
+    }
+
+    public void setMarke(String marke) {
+        this.marke = marke;
     }
 }
