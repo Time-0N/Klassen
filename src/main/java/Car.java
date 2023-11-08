@@ -5,12 +5,12 @@ public class Car {
     int baujahr;
     int kmh;
 
-    Car(String marke, String modell, String farbe, int baujahr, int kmh) {
+    Car(String marke, String modell, String farbe, int baujahr) {
         this.marke = marke;
         this.modell = modell;
         this.farbe = farbe;
         this.baujahr = baujahr;
-        this.kmh = kmh;
+        this.kmh = 0;
 
         startCar();
 
