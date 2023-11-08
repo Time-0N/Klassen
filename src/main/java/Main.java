@@ -1,12 +1,7 @@
 public class Main {
 
-    public static void startFirstCar() {
-        System.out.println("Started first car");
-    }
-
     public static void main(String[] args) {
         Car firstCar = new Car("Mercedes", "GT Coupé", "Grey", 2014, 80);
-        startFirstCar();
 
         System.out.println("Speed of first car: " + firstCar.kmh);
 

@@ -12,10 +12,15 @@ public class Car {
         this.baujahr = baujahr;
         this.kmh = kmh;
 
+        startCar();
+
         kmh = speedUpCar();
     }
     public int speedUpCar() {
         kmh += 10;
         return kmh;
+    }
+    public void startCar() {
+        System.out.println("StartedCar");
     }
 }
