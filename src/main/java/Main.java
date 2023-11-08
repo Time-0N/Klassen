@@ -10,5 +10,8 @@ public class Main {
 
         System.out.println("Speed of second car: " + secondCar.kmh);
 
+        Person firstPerson = new Person("Andreas", 34, 'M');
+        Person secondPerson = new Person("Mrs. Puff from Spongebob",44,'W');
+
     }
 }
