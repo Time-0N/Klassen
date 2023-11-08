@@ -17,9 +17,8 @@ public class Car {
         kmh = speedUpCar();
     }
     public int speedUpCar() {
-        int velocity = 0;
-        while (velocity<100) {
-            System.out.println("Speed of " + modell + " is: " + velocity);
+        while (kmh<100) {
+            System.out.println("Speed of " + modell + " is: " + kmh);
             kmh += 10;
         }
         return kmh;
